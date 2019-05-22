@@ -9,9 +9,12 @@ Cookiecutter PyPackage
 .. image:: https://travis-ci.org/audreyr/cookiecutter-pypackage.svg?branch=master
     :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
 
-Cookiecutter_ template for a Python package, adapted from the original
+Cookiecutter_ template for a Python package, adapted for SPICED Academy
+Data Science Program, based on the original
 `cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage/>`_
 developed by Audrey Roy Greenfeld (github: `audreyr <https://github.com/audreyr)>`_).
+
+.. image:: https://www.spiced-academy.com/wp-content/themes/spicedwp/img/spiced-logo.svg
 
 * GitHub repo: https://github.com/pawlodkowski/spiced-cookiecutter-pypackage
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
