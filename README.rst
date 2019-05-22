@@ -11,7 +11,7 @@ Cookiecutter PyPackage
 
 Cookiecutter_ template for a Python package, adapted from the original
 `cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage/>`_
-developed by Audrey Roy Greenfeld (github: `audreyr <https://github.com/audreyr)>`_.
+developed by Audrey Roy Greenfeld (github: `audreyr <https://github.com/audreyr)>`_).
 
 * GitHub repo: https://github.com/pawlodkowski/spiced-cookiecutter-pypackage
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
