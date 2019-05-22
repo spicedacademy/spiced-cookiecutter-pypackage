@@ -7,11 +7,13 @@ Cookiecutter PyPackage
      :alt: Updates
 
 .. image:: https://travis-ci.org/audreyr/cookiecutter-pypackage.svg?branch=master
-    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage     
+    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
 
-Cookiecutter_ template for a Python package.
+Cookiecutter_ template for a Python package, adapted from the original
+`cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage/>`_
+developed by Audrey Roy Greenfeld (github: `audreyr <https://github.com/audreyr)>`_.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
+* GitHub repo: https://github.com/pawlodkowski/spiced-cookiecutter-pypackage
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
@@ -98,7 +100,7 @@ Similar Cookiecutter Templates
 
 * Also see the `network`_ and `family tree`_ for this repo. (If you find
   anything that should be listed here, please add it and send a pull request!)
-  
+
 Support this Project
 ~~~~~~~~~~~~~~~~~~~~~
 
