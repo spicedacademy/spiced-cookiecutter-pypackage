@@ -1,6 +1,6 @@
-======================
-Cookiecutter PyPackage
-======================
+============================================
+SPICED Data Science Cookiecutter PyPackage
+============================================
 
 .. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
      :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
