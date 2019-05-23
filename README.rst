@@ -18,7 +18,6 @@ Features
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
 * Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.7, 3.4, 3.5, 3.6
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 * Bumpversion_: Pre-configured version bumping with a single command
 * Auto-release to PyPI_ when you push a new tag to master (optional)
@@ -123,7 +122,6 @@ make my own packaging experience better.
 
 
 .. _Travis-CI: http://travis-ci.org/
-.. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.io/
 .. _`pyup.io`: https://pyup.io/

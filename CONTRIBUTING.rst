@@ -103,14 +103,14 @@ you already have `virtualenv` and `Git` installed and ready to go.
     # Update pip
     $ pip install -U pip
 
-7. Before raising a pull request you should also run tox. This will run the tests across different versions of Python::
+7. Before raising a pull request you should also run pytest.::
 
   .. code-block:: bash
 
-    $ tox
+    $ pytest
 
    .. note::
-      If you are missing flake8, pytest and/or tox, just pip install them into your virtualenv.
+      If you are missing flake8 or pytest, just pip install them into your virtualenv.
 
 8. If your contribution is a bug fix or new feature, you may want to add a test to the existing test suite. See section Add a New Test below for details.
 
@@ -156,9 +156,9 @@ To write and run your new test, follow these steps:
 
     $ py.test ./tests
 
-4. (Optional) Run the tests with tox to ensure that the code changes work with different Python versions::
+4. (Optional) Run the tests with pytest to ensure that the code changes work with different Python versions::
 
-    $ tox
+    $ pytest
 
 5. Proceed work on your bug fix or new feature or restore your changes. To restore your stashed changes and confirm their restoration::
 
