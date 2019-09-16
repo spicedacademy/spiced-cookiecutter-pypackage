@@ -9,7 +9,7 @@ developed by Audrey Roy Greenfeld (github: `audreyr <https://github.com/audreyr)
 
 .. image:: https://www.spiced-academy.com/wp-content/themes/spicedwp/img/spiced-logo.svg
 
-* GitHub repo: https://github.com/pawlodkowski/spiced-cookiecutter-pypackage
+* GitHub repo: https://github.com/spicedacademy/spiced-cookiecutter-pypackage
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
@@ -36,7 +36,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/pawlodkowski/spiced-cookiecutter-pypackage.git
+    cookiecutter https://github.com/spicedacademy/spiced-cookiecutter-pypackage.git
 
 Then:
 
