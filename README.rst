@@ -42,7 +42,7 @@ Then:
 
 * Create a repo and put it there.
 * Add the repo to your Travis-CI_ account.
-* Install the dev requirements into a virtualenv. (``pip install -r requirements_dev.txt``)
+* Install the dev requirements into a virtual environment (e.g. conda). (``pip install -r requirements_dev.txt``)
 * Register_ your project with PyPI.
 * Run the Travis CLI command `travis encrypt --add deploy.password` to encrypt your PyPI password in Travis config
   and activate automated deployment on PyPI when you push a new tag to master branch.
@@ -50,7 +50,6 @@ Then:
 * Release your package by pushing a new tag to master.
 * Add a `requirements.txt` file that specifies the packages you will need for
   your project and their versions. For more info see the `pip docs for requirements files`_.
-* Activate your project on `pyup.io`_.
 
 .. _`pip docs for requirements files`: https://pip.pypa.io/en/stable/user_guide/#requirements-files
 .. _Register: https://packaging.python.org/distributing/#register-your-project
@@ -58,6 +57,25 @@ Then:
 For more details, see the `cookiecutter-pypackage tutorial`_.
 
 .. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
+
+Generating Documentation with Sphinx
+------------------------------------
+
+For MacOS / Linux, at the root level of your project slug, run:
+
+    make docs
+
+Alternatively:
+
+    cd docs/
+    make html
+    open _build/html/index.html
+
+For Windows users:
+
+*Run the make.bat file inside the `docs/` directory*. (TO-DO: Needs to be tested)
+
+
 
 Not Exactly What You Want?
 --------------------------
