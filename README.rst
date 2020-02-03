@@ -61,11 +61,11 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 Generating Documentation with Sphinx
 ------------------------------------
 
-For MacOS / Linux, at the root level of your project slug, run:
+For MacOS / Linux, at the root level of your project slug, run::
 
     make docs
 
-Alternatively:
+Alternatively::
 
     cd docs/
     make html
