@@ -95,3 +95,11 @@ target/
 # Cookiecutter
 output/
 python_boilerplate/
+
+
+# MacOS
+.DS_Store
+
+
+# Raw data
+*.csv
